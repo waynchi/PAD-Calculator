@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80EBD87190B37A100937E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD86190B37A100937E39 /* Foundation.framework */; };
+		B80EBD89190B37A100937E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD88190B37A100937E39 /* CoreGraphics.framework */; };
+		B80EBD8B190B37A100937E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD8A190B37A100937E39 /* UIKit.framework */; };
+		B80EBD91190B37A100937E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B80EBD8F190B37A100937E39 /* InfoPlist.strings */; };
+		B80EBD93190B37A100937E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD92190B37A100937E39 /* main.m */; };
+		B80EBD97190B37A100937E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD96190B37A100937E39 /* AppDelegate.m */; };
+		B80EBD9A190B37A100937E39 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80EBD98190B37A100937E39 /* Main_iPhone.storyboard */; };
+		B80EBD9D190B37A100937E39 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */; };
+		B80EBDA0190B37A100937E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD9F190B37A100937E39 /* ViewController.m */; };
+		B80EBDA2190B37A100937E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80EBDA1190B37A100937E39 /* Images.xcassets */; };
+		B80EBDA9190B37A100937E39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBDA8190B37A100937E39 /* XCTest.framework */; };
+		B80EBDAA190B37A100937E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD86190B37A100937E39 /* Foundation.framework */; };
+		B80EBDAB190B37A100937E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD8A190B37A100937E39 /* UIKit.framework */; };
+		B80EBDB3190B37A100937E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B80EBDB1190B37A100937E39 /* InfoPlist.strings */; };
+		B80EBDB5190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B80EBDAC190B37A100937E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80EBD7B190B37A100937E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80EBD82190B37A100937E39;
+			remoteInfo = "PAD Calculator - Calculations for Puzzle and Dragons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and Dragons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80EBD86190B37A100937E39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B80EBD88190B37A100937E39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B80EBD8A190B37A100937E39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B80EBD8E190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and Dragons-Info.plist"; sourceTree = "<group>"; };
+		B80EBD90190B37A100937E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B80EBD92190B37A100937E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B80EBD94190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch"; sourceTree = "<group>"; };
+		B80EBD95190B37A100937E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B80EBD96190B37A100937E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B80EBD99190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B80EBD9C190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B80EBD9E190B37A100937E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B80EBD9F190B37A100937E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and DragonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80EBDA8190B37A100937E39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist"; sourceTree = "<group>"; };
+		B80EBDB2190B37A100937E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80EBD80190B37A100937E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBD89190B37A100937E39 /* CoreGraphics.framework in Frameworks */,
+				B80EBD8B190B37A100937E39 /* UIKit.framework in Frameworks */,
+				B80EBD87190B37A100937E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EBDA4190B37A100937E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBDA9190B37A100937E39 /* XCTest.framework in Frameworks */,
+				B80EBDAB190B37A100937E39 /* UIKit.framework in Frameworks */,
+				B80EBDAA190B37A100937E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80EBD7A190B37A100937E39 = {
+			isa = PBXGroup;
+			children = (
+				B80EBD8C190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */,
+				B80EBDAE190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */,
+				B80EBD85190B37A100937E39 /* Frameworks */,
+				B80EBD84190B37A100937E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80EBD84190B37A100937E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */,
+				B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80EBD85190B37A100937E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBD86190B37A100937E39 /* Foundation.framework */,
+				B80EBD88190B37A100937E39 /* CoreGraphics.framework */,
+				B80EBD8A190B37A100937E39 /* UIKit.framework */,
+				B80EBDA8190B37A100937E39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B80EBD8C190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBD95190B37A100937E39 /* AppDelegate.h */,
+				B80EBD96190B37A100937E39 /* AppDelegate.m */,
+				B80EBD98190B37A100937E39 /* Main_iPhone.storyboard */,
+				B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */,
+				B80EBD9E190B37A100937E39 /* ViewController.h */,
+				B80EBD9F190B37A100937E39 /* ViewController.m */,
+				B80EBDA1190B37A100937E39 /* Images.xcassets */,
+				B80EBD8D190B37A100937E39 /* Supporting Files */,
+			);
+			path = "PAD Calculator - Calculations for Puzzle and Dragons";
+			sourceTree = "<group>";
+		};
+		B80EBD8D190B37A100937E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBD8E190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Info.plist */,
+				B80EBD8F190B37A100937E39 /* InfoPlist.strings */,
+				B80EBD92190B37A100937E39 /* main.m */,
+				B80EBD94190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80EBDAE190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */,
+				B80EBDAF190B37A100937E39 /* Supporting Files */,
+			);
+			path = "PAD Calculator - Calculations for Puzzle and DragonsTests";
+			sourceTree = "<group>";
+		};
+		B80EBDAF190B37A100937E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */,
+				B80EBDB1190B37A100937E39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80EBD82190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80EBDB8190B37A100937E39 /* Build configuration list for PBXNativeTarget "PAD Calculator - Calculations for Puzzle and Dragons" */;
+			buildPhases = (
+				B80EBD7F190B37A100937E39 /* Sources */,
+				B80EBD80190B37A100937E39 /* Frameworks */,
+				B80EBD81190B37A100937E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PAD Calculator - Calculations for Puzzle and Dragons";
+			productName = "PAD Calculator - Calculations for Puzzle and Dragons";
+			productReference = B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B80EBDA6190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80EBDBB190B37A100937E39 /* Build configuration list for PBXNativeTarget "PAD Calculator - Calculations for Puzzle and DragonsTests" */;
+			buildPhases = (
+				B80EBDA3190B37A100937E39 /* Sources */,
+				B80EBDA4190B37A100937E39 /* Frameworks */,
+				B80EBDA5190B37A100937E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80EBDAD190B37A100937E39 /* PBXTargetDependency */,
+			);
+			name = "PAD Calculator - Calculations for Puzzle and DragonsTests";
+			productName = "PAD Calculator - Calculations for Puzzle and DragonsTests";
+			productReference = B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80EBD7B190B37A100937E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Wayne Chi";
+				TargetAttributes = {
+					B80EBDA6190B37A100937E39 = {
+						TestTargetID = B80EBD82190B37A100937E39;
+					};
+				};
+			};
+			buildConfigurationList = B80EBD7E190B37A100937E39 /* Build configuration list for PBXProject "PAD Calculator - Calculations for Puzzle and Dragons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80EBD7A190B37A100937E39;
+			productRefGroup = B80EBD84190B37A100937E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80EBD82190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */,
+				B80EBDA6190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80EBD81190B37A100937E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBD9D190B37A100937E39 /* Main_iPad.storyboard in Resources */,
+				B80EBDA2190B37A100937E39 /* Images.xcassets in Resources */,
+				B80EBD9A190B37A100937E39 /* Main_iPhone.storyboard in Resources */,
+				B80EBD91190B37A100937E39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EBDA5190B37A100937E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBDB3190B37A100937E39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80EBD7F190B37A100937E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBDA0190B37A100937E39 /* ViewController.m in Sources */,
+				B80EBD97190B37A100937E39 /* AppDelegate.m in Sources */,
+				B80EBD93190B37A100937E39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EBDA3190B37A100937E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80EBDB5190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80EBDAD190B37A100937E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80EBD82190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */;
+			targetProxy = B80EBDAC190B37A100937E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80EBD8F190B37A100937E39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80EBD90190B37A100937E39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B80EBD98190B37A100937E39 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80EBD99190B37A100937E39 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80EBD9C190B37A100937E39 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B80EBDB1190B37A100937E39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80EBDB2190B37A100937E39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80EBDB6190B37A100937E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80EBDB7190B37A100937E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80EBDB9190B37A100937E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
+				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B80EBDBA190B37A100937E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
+				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B80EBDBC190B37A100937E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PAD Calculator - Calculations for Puzzle and Dragons.app/PAD Calculator - Calculations for Puzzle and Dragons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and DragonsTests/PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B80EBDBD190B37A100937E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PAD Calculator - Calculations for Puzzle and Dragons.app/PAD Calculator - Calculations for Puzzle and Dragons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
+				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and DragonsTests/PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80EBD7E190B37A100937E39 /* Build configuration list for PBXProject "PAD Calculator - Calculations for Puzzle and Dragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80EBDB6190B37A100937E39 /* Debug */,
+				B80EBDB7190B37A100937E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80EBDB8190B37A100937E39 /* Build configuration list for PBXNativeTarget "PAD Calculator - Calculations for Puzzle and Dragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80EBDB9190B37A100937E39 /* Debug */,
+				B80EBDBA190B37A100937E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B80EBDBB190B37A100937E39 /* Build configuration list for PBXNativeTarget "PAD Calculator - Calculations for Puzzle and DragonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80EBDBC190B37A100937E39 /* Debug */,
+				B80EBDBD190B37A100937E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80EBD7B190B37A100937E39 /* Project object */;
+}
