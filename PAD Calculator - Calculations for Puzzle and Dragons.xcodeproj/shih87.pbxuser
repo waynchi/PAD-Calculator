@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	B80EBD7B190B37A100937E39 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B8A5E6E91919DFA70000DE4A /* PAD Calculator - Calculations for Puzzle and Dragons */;
+		activeTarget = B80EBD82190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */;
+		codeSenseManager = B8A5E7001919DFAF0000DE4A /* Code sense */;
+		executables = (
+			B8A5E6E91919DFA70000DE4A /* PAD Calculator - Calculations for Puzzle and Dragons */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 421126055;
+			PBXWorkspaceStateSaveDate = 421126055;
+		};
+		sourceControlManager = B8A5E6FF1919DFAF0000DE4A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B80EBD82190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */ = {
+		activeExec = 0;
+		executables = (
+			B8A5E6E91919DFA70000DE4A /* PAD Calculator - Calculations for Puzzle and Dragons */,
+		);
+	};
+	B80EBDA6190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */ = {
+		activeExec = 0;
+	};
+	B8A5E6E91919DFA70000DE4A /* PAD Calculator - Calculations for Puzzle and Dragons */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PAD Calculator - Calculations for Puzzle and Dragons";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B8A5E6FF1919DFAF0000DE4A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B8A5E7001919DFAF0000DE4A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
