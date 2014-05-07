@@ -45,11 +45,11 @@
 		B80EBD94190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch"; sourceTree = "<group>"; };
 		B80EBD95190B37A100937E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B80EBD96190B37A100937E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B80EBD99190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B80EBD9C190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B80EBD99190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B80EBD9C190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B80EBD9E190B37A100937E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B80EBD9F190B37A100937E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and DragonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80EBDA8190B37A100937E39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist"; sourceTree = "<group>"; };
@@ -474,6 +474,7 @@
 				B80EBDBA190B37A100937E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B80EBDBB190B37A100937E39 /* Build configuration list for PBXNativeTarget "PAD Calculator - Calculations for Puzzle and DragonsTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				B80EBDBD190B37A100937E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

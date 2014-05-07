@@ -9,5 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    float totalScoreValue;
+    float comboScoreValue;
+    float turnScoreValue;
+    float teamScoreValue;
+    
+}
+@property (strong, nonatomic) IBOutlet UILabel *turnCount;
+@property (strong, nonatomic) IBOutlet UILabel *teamCost;
+@property (strong, nonatomic) IBOutlet UILabel *averageCombo;
+@property (strong, nonatomic) IBOutlet UISlider *turnCountSlider;
+@property (strong, nonatomic) IBOutlet UISlider *teamCostSlider;
+@property (strong, nonatomic) IBOutlet UISlider *averageComboSlider;
+@property (strong, nonatomic) IBOutlet UILabel *score;
+
 
 @end
