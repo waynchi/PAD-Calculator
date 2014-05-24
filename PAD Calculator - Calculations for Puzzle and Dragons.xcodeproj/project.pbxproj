@@ -55,6 +55,8 @@
 		B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist"; sourceTree = "<group>"; };
 		B80EBDB2190B37A100937E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m"; sourceTree = "<group>"; };
+		B83AD5471930F3A100C6F8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		B83AD5481930F3B200C6F8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +201,7 @@
 		B80EBD7B190B37A100937E39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Wayne Chi";
 				TargetAttributes = {
 					B80EBDA6190B37A100937E39 = {
@@ -290,6 +292,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B80EBD99190B37A100937E39 /* Base */,
+				B83AD5481930F3B200C6F8C1 /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B80EBD9C190B37A100937E39 /* Base */,
+				B83AD5471930F3A100C6F8C1 /* en */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -317,7 +321,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -357,7 +360,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -416,7 +418,6 @@
 		B80EBDBC190B37A100937E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PAD Calculator - Calculations for Puzzle and Dragons.app/PAD Calculator - Calculations for Puzzle and Dragons";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -439,7 +440,6 @@
 		B80EBDBD190B37A100937E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PAD Calculator - Calculations for Puzzle and Dragons.app/PAD Calculator - Calculations for Puzzle and Dragons";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
