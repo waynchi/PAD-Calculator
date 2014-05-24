@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource>
 {
     float totalScoreValue;
     float comboScoreValue;
@@ -16,6 +16,10 @@
     float teamScoreValue;
     
 }
+
+@property (strong, nonatomic) IBOutlet UIPickerView *dungeonPicker;
+@property (strong, nonatomic)          NSArray *dungeonArray;
+
 @property (strong, nonatomic) IBOutlet UILabel *turnCount;
 @property (strong, nonatomic) IBOutlet UILabel *teamCost;
 @property (strong, nonatomic) IBOutlet UILabel *averageCombo;
