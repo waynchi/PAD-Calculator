@@ -22,7 +22,17 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     //Setting the PickerView
-    self.dungeonArray = [[NSArray alloc] initWithObjects:@"Angels Invade",@"Armor-Breaking Sword",@"Blackgate Prison",@"Dark Green Desert Isle",@"Dream Labyrinth",@"Epic Battles",@"Isle of Underworld",@"Red Backwater",@"Shining Island",@"Shore Maiden",@"Supreme Jewel", nil];
+    //Setting up all the dungeons
+    UIImage *image = [UIImage imageNamed:@"Tamadra.png"];
+    [self.sRankImage setImage:image];
+    self.dungeonArray = [[NSArray alloc] initWithObjects:@"Angelic Dragon of Light", @"Angels Invade",@"Armor-Breaking Sword",@"Blackgate Prison",@"Buddha Statue Descended", @"Dark Green Desert Isle",@"Dream Labyrinth",@"Epic Battles",@"Isle of Underworld",@"Red Backwater",@"Shining Island",@"Shore Maiden",@"Supreme Jewel", nil];
+    //Setting up the Dungeon turn counts
+    self.dungeonTurn = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:5],[NSNumber numberWithInt:7],[NSNumber numberWithInt:5],[NSNumber numberWithInt:7],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:7],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:5],[NSNumber numberWithInt:5], nil];
+    
+    //Setting up the Dungeon Score values
+    self.dungeonScore = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:200000],[NSNumber numberWithInt:140000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:80000],[NSNumber numberWithInt:180000],[NSNumber numberWithInt:170000],[NSNumber numberWithInt:150000],[NSNumber numberWithInt:80000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:100000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:200000], nil];
+    
+    
     //self.dungeonArray = [[NSArray alloc] initWithObjects:@"blue", nil];
     [self.dungeonPicker setDelegate:self];
     [self.dungeonPicker setDataSource:self];
@@ -61,7 +71,7 @@
     self.averageCombo.textAlignment = NSTextAlignmentRight;
     NSLog(@"%@",[self.dungeonArray objectAtIndex:0]);
     //linebreak
-    self.score.lineBreakMode = UILineBreakModeClip;
+ //   self.score.lineBreakMode = UILineBreakModeClip;
     
     
 }
@@ -73,13 +83,25 @@
 }
 - (IBAction)turnCountDidChange:(id)sender {
     self.turnCount.text = [NSString stringWithFormat:@"%0.0f", self.turnCountSlider.value];
-    turnScoreValue = 40000-((roundf(self.turnCountSlider.value)-self.turnCountSlider.minimumValue)*2500);
+    turnScoreValue = 40000-((roundf(self.turnCountSlider.value)-minimumTurn)*2500);
     if(turnScoreValue <= 0)
     {
         turnScoreValue = 0;
     }
+    if(turnScoreValue >= 40000)
+    {
+        turnScoreValue = 40000;
+    }
     totalScoreValue = comboScoreValue + teamScoreValue + turnScoreValue;
     self.score.text = [NSString stringWithFormat:@"%0.0f", totalScoreValue];
+    if(totalScoreValue >= sRankValue)
+    {
+        NSLog(@"S-Rank Achieved");
+    }
+    if(totalScoreValue <= sRankValue)
+    {
+        NSLog(@"Failed To Achieve S-Rank");
+    }
 }
 
 - (IBAction)teamCostDidChange:(id)sender {
@@ -87,6 +109,14 @@
     teamScoreValue = 75.83*pow(10-(roundf(self.teamCostSlider.value)/6),4);
     totalScoreValue = comboScoreValue + teamScoreValue + turnScoreValue;
     self.score.text = [NSString stringWithFormat:@"%0.0f", totalScoreValue];
+    if(totalScoreValue >= sRankValue)
+    {
+        NSLog(@"S-Rank Achieved");
+    }
+    if(totalScoreValue <= sRankValue)
+    {
+        NSLog(@"Failed To Achieve S-Rank");
+    }
 }
 
 - (IBAction)averageComboDidChange:(id)sender {
@@ -94,6 +124,14 @@
     comboScoreValue = 20*pow(roundf(self.averageComboSlider.value*10)/10,4);
     totalScoreValue = comboScoreValue + teamScoreValue + turnScoreValue;
     self.score.text = [NSString stringWithFormat:@"%0.0f", totalScoreValue];
+    if(totalScoreValue >= sRankValue)
+    {
+        NSLog(@"S-Rank Achieved");
+    }
+    if(totalScoreValue <= sRankValue)
+    {
+        NSLog(@"Failed To Achieve S-Rank");
+    }
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
@@ -126,6 +164,36 @@
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     NSLog(@"Selected Row %d", row);
+    sRankValue = [[self.dungeonScore objectAtIndex:row] intValue];
+    minimumTurn = [[self.dungeonTurn objectAtIndex:row] intValue];
+    if(self.turnCountSlider.value <= minimumTurn)
+    {
+        self.turnCountSlider.value = minimumTurn;
+    }
+    self.turnCount.text = [NSString stringWithFormat:@"%0.0f", self.turnCountSlider.value];
+    turnScoreValue = 40000-((roundf(self.turnCountSlider.value)-minimumTurn)*2500);
+    if(turnScoreValue <= 0)
+    {
+        turnScoreValue = 0;
+    }
+    if(turnScoreValue >= 40000)
+    {
+        turnScoreValue = 40000;
+    }
+    totalScoreValue = comboScoreValue + teamScoreValue + turnScoreValue;
+    self.score.text = [NSString stringWithFormat:@"%0.0f", totalScoreValue];
+    
+    if(totalScoreValue >= sRankValue)
+    {
+        NSLog(@"S-Rank Achieved");
+    }
+    if(totalScoreValue <= sRankValue)
+    {
+        NSLog(@"Failed To Achieve S-Rank");
+    }
+    NSLog(@"Dungeon is: %@", [self.dungeonArray objectAtIndex:row]);
+   // NSLog(@"%d", sRankValue);
+   // NSLog(@"%d", minimumTurn);
 }
 
 

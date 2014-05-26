@@ -14,12 +14,19 @@
     float comboScoreValue;
     float turnScoreValue;
     float teamScoreValue;
+    int sRankValue;
+    int aRankValue;
+    int bRankValue;
+    int minimumTurn;
     
 }
 
 @property (strong, nonatomic) IBOutlet UIPickerView *dungeonPicker;
 @property (strong, nonatomic)          NSArray *dungeonArray;
+@property (strong, nonatomic)          NSArray *dungeonTurn;
+@property (strong, nonatomic)          NSArray *dungeonScore;
 
+@property (strong, nonatomic) IBOutlet UIImageView *sRankImage;
 @property (strong, nonatomic) IBOutlet UILabel *turnCount;
 @property (strong, nonatomic) IBOutlet UILabel *teamCost;
 @property (strong, nonatomic) IBOutlet UILabel *averageCombo;
