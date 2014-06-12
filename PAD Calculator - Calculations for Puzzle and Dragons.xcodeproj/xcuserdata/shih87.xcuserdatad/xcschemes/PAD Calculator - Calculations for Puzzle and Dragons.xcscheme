@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B80EBD82190B37A100937E39"
-               BuildableName = "PAD Calculator - Calculations for Puzzle and Dragons.app"
+               BuildableName = "PadSRank.app"
                BlueprintName = "PAD Calculator - Calculations for Puzzle and Dragons"
                ReferencedContainer = "container:PAD Calculator - Calculations for Puzzle and Dragons.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B80EBD82190B37A100937E39"
-            BuildableName = "PAD Calculator - Calculations for Puzzle and Dragons.app"
+            BuildableName = "PadSRank.app"
             BlueprintName = "PAD Calculator - Calculations for Puzzle and Dragons"
             ReferencedContainer = "container:PAD Calculator - Calculations for Puzzle and Dragons.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B80EBD82190B37A100937E39"
-            BuildableName = "PAD Calculator - Calculations for Puzzle and Dragons.app"
+            BuildableName = "PadSRank.app"
             BlueprintName = "PAD Calculator - Calculations for Puzzle and Dragons"
             ReferencedContainer = "container:PAD Calculator - Calculations for Puzzle and Dragons.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B80EBD82190B37A100937E39"
-            BuildableName = "PAD Calculator - Calculations for Puzzle and Dragons.app"
+            BuildableName = "PadSRank.app"
             BlueprintName = "PAD Calculator - Calculations for Puzzle and Dragons"
             ReferencedContainer = "container:PAD Calculator - Calculations for Puzzle and Dragons.xcodeproj">
          </BuildableReference>

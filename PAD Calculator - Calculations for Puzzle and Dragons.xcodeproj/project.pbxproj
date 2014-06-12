@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80D0C2E19489D8F004931BC /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C1E19489D8F004931BC /* AppIcon29x29.png */; };
+		B80D0C2F19489D8F004931BC /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C1F19489D8F004931BC /* AppIcon29x29@2x.png */; };
+		B80D0C3019489D8F004931BC /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2019489D8F004931BC /* AppIcon40x40.png */; };
+		B80D0C3119489D8F004931BC /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2119489D8F004931BC /* AppIcon40x40@2x.png */; };
+		B80D0C3219489D8F004931BC /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2219489D8F004931BC /* AppIcon50x50.png */; };
+		B80D0C3319489D8F004931BC /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2319489D8F004931BC /* AppIcon50x50@2x.png */; };
+		B80D0C3419489D8F004931BC /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2419489D8F004931BC /* AppIcon57x57.png */; };
+		B80D0C3519489D8F004931BC /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2519489D8F004931BC /* AppIcon57x57@2x.png */; };
+		B80D0C3619489D8F004931BC /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2619489D8F004931BC /* AppIcon60x60.png */; };
+		B80D0C3719489D8F004931BC /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2719489D8F004931BC /* AppIcon60x60@2x.png */; };
+		B80D0C3819489D8F004931BC /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2819489D8F004931BC /* AppIcon72x72.png */; };
+		B80D0C3919489D8F004931BC /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2919489D8F004931BC /* AppIcon72x72@2x.png */; };
+		B80D0C3A19489D8F004931BC /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2A19489D8F004931BC /* AppIcon76x76.png */; };
+		B80D0C3B19489D8F004931BC /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2B19489D8F004931BC /* AppIcon76x76@2x.png */; };
+		B80D0C3C19489D8F004931BC /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2C19489D8F004931BC /* iTunesArtwork.png */; };
+		B80D0C3D19489D8F004931BC /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B80D0C2D19489D8F004931BC /* iTunesArtwork@2x.png */; };
+		B80D0C3E19489E4C004931BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80EBDA1190B37A100937E39 /* Images.xcassets */; };
 		B80EBD87190B37A100937E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD86190B37A100937E39 /* Foundation.framework */; };
 		B80EBD89190B37A100937E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD88190B37A100937E39 /* CoreGraphics.framework */; };
 		B80EBD8B190B37A100937E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD8A190B37A100937E39 /* UIKit.framework */; };
@@ -14,7 +31,6 @@
 		B80EBD93190B37A100937E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD92190B37A100937E39 /* main.m */; };
 		B80EBD97190B37A100937E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD96190B37A100937E39 /* AppDelegate.m */; };
 		B80EBD9A190B37A100937E39 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80EBD98190B37A100937E39 /* Main_iPhone.storyboard */; };
-		B80EBD9D190B37A100937E39 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */; };
 		B80EBDA0190B37A100937E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBD9F190B37A100937E39 /* ViewController.m */; };
 		B80EBDA2190B37A100937E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80EBDA1190B37A100937E39 /* Images.xcassets */; };
 		B80EBDA9190B37A100937E39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBDA8190B37A100937E39 /* XCTest.framework */; };
@@ -37,7 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and Dragons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80D0C1E19489D8F004931BC /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon29x29.png; path = "../../Desktop/App Icon [Squared]/AppIcon29x29.png"; sourceTree = "<group>"; };
+		B80D0C1F19489D8F004931BC /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon29x29@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		B80D0C2019489D8F004931BC /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon40x40.png; path = "../../Desktop/App Icon [Squared]/AppIcon40x40.png"; sourceTree = "<group>"; };
+		B80D0C2119489D8F004931BC /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon40x40@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		B80D0C2219489D8F004931BC /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon50x50.png; path = "../../Desktop/App Icon [Squared]/AppIcon50x50.png"; sourceTree = "<group>"; };
+		B80D0C2319489D8F004931BC /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon50x50@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		B80D0C2419489D8F004931BC /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon57x57.png; path = "../../Desktop/App Icon [Squared]/AppIcon57x57.png"; sourceTree = "<group>"; };
+		B80D0C2519489D8F004931BC /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon57x57@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		B80D0C2619489D8F004931BC /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon60x60.png; path = "../../Desktop/App Icon [Squared]/AppIcon60x60.png"; sourceTree = "<group>"; };
+		B80D0C2719489D8F004931BC /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon60x60@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		B80D0C2819489D8F004931BC /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon72x72.png; path = "../../Desktop/App Icon [Squared]/AppIcon72x72.png"; sourceTree = "<group>"; };
+		B80D0C2919489D8F004931BC /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon72x72@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		B80D0C2A19489D8F004931BC /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon76x76.png; path = "../../Desktop/App Icon [Squared]/AppIcon76x76.png"; sourceTree = "<group>"; };
+		B80D0C2B19489D8F004931BC /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon76x76@2x.png"; path = "../../Desktop/App Icon [Squared]/AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		B80D0C2C19489D8F004931BC /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "../../Desktop/App Icon [Squared]/iTunesArtwork.png"; sourceTree = "<group>"; };
+		B80D0C2D19489D8F004931BC /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../Desktop/App Icon [Squared]/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		B80EBD83190B37A100937E39 /* PadSRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadSRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80EBD86190B37A100937E39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B80EBD88190B37A100937E39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B80EBD8A190B37A100937E39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,10 +80,9 @@
 		B80EBD95190B37A100937E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B80EBD96190B37A100937E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B80EBD99190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B80EBD9C190B37A100937E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B80EBD9E190B37A100937E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B80EBD9F190B37A100937E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and DragonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80EBDA8190B37A100937E39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist"; sourceTree = "<group>"; };
@@ -59,7 +90,6 @@
 		B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m"; sourceTree = "<group>"; };
 		B833B36419338ABA00068F36 /* Tamadra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tamadra.png; sourceTree = "<group>"; };
 		B833B36619338C7100068F36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		B83AD5471930F3A100C6F8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		B83AD5481930F3B200C6F8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +117,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B80D0C3F19489FCD004931BC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		B80EBD7A190B37A100937E39 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +137,7 @@
 		B80EBD84190B37A100937E39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */,
+				B80EBD83190B37A100937E39 /* PadSRank.app */,
 				B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */,
 			);
 			name = Products;
@@ -120,12 +157,12 @@
 		B80EBD8C190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */ = {
 			isa = PBXGroup;
 			children = (
+				B80D0C3F19489FCD004931BC /* iPad */,
 				B833B36619338C7100068F36 /* background.png */,
 				B833B36419338ABA00068F36 /* Tamadra.png */,
 				B80EBD95190B37A100937E39 /* AppDelegate.h */,
 				B80EBD96190B37A100937E39 /* AppDelegate.m */,
 				B80EBD98190B37A100937E39 /* Main_iPhone.storyboard */,
-				B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */,
 				B80EBD9E190B37A100937E39 /* ViewController.h */,
 				B80EBD9F190B37A100937E39 /* ViewController.m */,
 				B80EBDA1190B37A100937E39 /* Images.xcassets */,
@@ -137,6 +174,22 @@
 		B80EBD8D190B37A100937E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B80D0C1E19489D8F004931BC /* AppIcon29x29.png */,
+				B80D0C1F19489D8F004931BC /* AppIcon29x29@2x.png */,
+				B80D0C2019489D8F004931BC /* AppIcon40x40.png */,
+				B80D0C2119489D8F004931BC /* AppIcon40x40@2x.png */,
+				B80D0C2219489D8F004931BC /* AppIcon50x50.png */,
+				B80D0C2319489D8F004931BC /* AppIcon50x50@2x.png */,
+				B80D0C2419489D8F004931BC /* AppIcon57x57.png */,
+				B80D0C2519489D8F004931BC /* AppIcon57x57@2x.png */,
+				B80D0C2619489D8F004931BC /* AppIcon60x60.png */,
+				B80D0C2719489D8F004931BC /* AppIcon60x60@2x.png */,
+				B80D0C2819489D8F004931BC /* AppIcon72x72.png */,
+				B80D0C2919489D8F004931BC /* AppIcon72x72@2x.png */,
+				B80D0C2A19489D8F004931BC /* AppIcon76x76.png */,
+				B80D0C2B19489D8F004931BC /* AppIcon76x76@2x.png */,
+				B80D0C2C19489D8F004931BC /* iTunesArtwork.png */,
+				B80D0C2D19489D8F004931BC /* iTunesArtwork@2x.png */,
 				B80EBD8E190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Info.plist */,
 				B80EBD8F190B37A100937E39 /* InfoPlist.strings */,
 				B80EBD92190B37A100937E39 /* main.m */,
@@ -180,7 +233,7 @@
 			);
 			name = "PAD Calculator - Calculations for Puzzle and Dragons";
 			productName = "PAD Calculator - Calculations for Puzzle and Dragons";
-			productReference = B80EBD83190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons.app */;
+			productReference = B80EBD83190B37A100937E39 /* PadSRank.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B80EBDA6190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */ = {
@@ -210,6 +263,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Wayne Chi";
 				TargetAttributes = {
+					B80EBD82190B37A100937E39 = {
+						DevelopmentTeam = YJTF5BZ862;
+					};
 					B80EBDA6190B37A100937E39 = {
 						TestTargetID = B80EBD82190B37A100937E39;
 					};
@@ -239,12 +295,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80EBD9D190B37A100937E39 /* Main_iPad.storyboard in Resources */,
+				B80D0C2F19489D8F004931BC /* AppIcon29x29@2x.png in Resources */,
+				B80D0C3019489D8F004931BC /* AppIcon40x40.png in Resources */,
+				B80D0C3A19489D8F004931BC /* AppIcon76x76.png in Resources */,
+				B80D0C3C19489D8F004931BC /* iTunesArtwork.png in Resources */,
 				B833B36719338C7100068F36 /* background.png in Resources */,
+				B80D0C3619489D8F004931BC /* AppIcon60x60.png in Resources */,
 				B833B36519338ABA00068F36 /* Tamadra.png in Resources */,
 				B80EBDA2190B37A100937E39 /* Images.xcassets in Resources */,
+				B80D0C3419489D8F004931BC /* AppIcon57x57.png in Resources */,
+				B80D0C3119489D8F004931BC /* AppIcon40x40@2x.png in Resources */,
+				B80D0C2E19489D8F004931BC /* AppIcon29x29.png in Resources */,
+				B80D0C3319489D8F004931BC /* AppIcon50x50@2x.png in Resources */,
+				B80D0C3D19489D8F004931BC /* iTunesArtwork@2x.png in Resources */,
+				B80D0C3B19489D8F004931BC /* AppIcon76x76@2x.png in Resources */,
+				B80D0C3819489D8F004931BC /* AppIcon72x72.png in Resources */,
+				B80D0C3519489D8F004931BC /* AppIcon57x57@2x.png in Resources */,
 				B80EBD9A190B37A100937E39 /* Main_iPhone.storyboard in Resources */,
+				B80D0C3919489D8F004931BC /* AppIcon72x72@2x.png in Resources */,
 				B80EBD91190B37A100937E39 /* InfoPlist.strings in Resources */,
+				B80D0C3719489D8F004931BC /* AppIcon60x60@2x.png in Resources */,
+				B80D0C3219489D8F004931BC /* AppIcon50x50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B80EBDB3190B37A100937E39 /* InfoPlist.strings in Resources */,
+				B80D0C3E19489E4C004931BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,15 +377,6 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		B80EBD9B190B37A100937E39 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B80EBD9C190B37A100937E39 /* Base */,
-				B83AD5471930F3A100C6F8C1 /* en */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		B80EBDB1190B37A100937E39 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -402,10 +465,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
 				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = PadSRank;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,10 +481,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch";
 				INFOPLIST_FILE = "PAD Calculator - Calculations for Puzzle and Dragons/PAD Calculator - Calculations for Puzzle and Dragons-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = PadSRank;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

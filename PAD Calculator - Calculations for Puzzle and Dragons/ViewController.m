@@ -22,11 +22,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     //Setting up the Background
-//    UIImage *backgroundImage = [UIImage imageNamed:@"background.png"];
-//    UIImageView *backgroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
-//    backgroundImageView.image = backgroundImage;
-//    [self.view insertSubview:backgroundImageView atIndex:0];
-    //[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
+    UIImage *backgroundImage = [UIImage imageNamed:@"background.png"];
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    backgroundImageView.image = backgroundImage;
+    [self.view insertSubview:backgroundImageView atIndex:0];
     //Setting up the picture
     UIImage *image = [UIImage imageNamed:@"Tamadra.png"];
     [self.sRankImage setImage:image];
@@ -36,12 +35,12 @@
     
     //Setting the PickerView
     //Setting up all the dungeons
-    self.dungeonArray = [[NSArray alloc] initWithObjects:@"Angelic Dragon of Light", @"Angels Invade",@"Armor-Breaking Sword",@"Blackgate Prison",@"Buddha Statue Descended", @"Dark Green Desert Isle",@"Dream Labyrinth",@"Epic Battles",@"Isle of Underworld",@"Red Backwater",@"Shining Island",@"Shore Maiden",@"Supreme Jewel", nil];
+    self.dungeonArray = [[NSArray alloc] initWithObjects:@"Angelic Dragon of Light", @"Angels Invade",@"Armor-Breaking Sword",@"Blackgate Prison", @"Blue Backwater", @"Buddha Statue Descended", @"Dark Green Desert Isle",@"Dream Labyrinth",@"Epic Battles",@"Isle of Underworld",@"Red Backwater",@"Shining Island",@"Shore Maiden",@"Starlight Path",@"Supreme Jewel", nil];
     //Setting up the Dungeon turn counts
-    self.dungeonTurn = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:5],[NSNumber numberWithInt:7],[NSNumber numberWithInt:5],[NSNumber numberWithInt:7],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:7],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:5],[NSNumber numberWithInt:5], nil];
+    self.dungeonTurn = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:5],[NSNumber numberWithInt:7],[NSNumber numberWithInt:5],[NSNumber numberWithInt:7], [NSNumber numberWithInt:10], [NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:7],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:10],[NSNumber numberWithInt:5], [NSNumber numberWithInt:10],[NSNumber numberWithInt:5], nil];
     
     //Setting up the Dungeon Score values
-    self.dungeonScore = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:200000],[NSNumber numberWithInt:140000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:80000],[NSNumber numberWithInt:180000],[NSNumber numberWithInt:170000],[NSNumber numberWithInt:150000],[NSNumber numberWithInt:80000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:100000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:200000], nil];
+    self.dungeonScore = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:200000],[NSNumber numberWithInt:140000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:80000], [NSNumber numberWithInt:100000],[NSNumber numberWithInt:180000],[NSNumber numberWithInt:170000],[NSNumber numberWithInt:150000],[NSNumber numberWithInt:80000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:100000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:200000],[NSNumber numberWithInt:180000],[NSNumber numberWithInt:200000], nil];
     
     //initiliazing the default s-rank scores
     sRankValue = [[self.dungeonScore objectAtIndex:0] intValue];
