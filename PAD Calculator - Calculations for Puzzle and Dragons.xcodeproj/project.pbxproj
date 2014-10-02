@@ -36,8 +36,6 @@
 		B80EBDA9190B37A100937E39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBDA8190B37A100937E39 /* XCTest.framework */; };
 		B80EBDAA190B37A100937E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD86190B37A100937E39 /* Foundation.framework */; };
 		B80EBDAB190B37A100937E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EBD8A190B37A100937E39 /* UIKit.framework */; };
-		B80EBDB3190B37A100937E39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B80EBDB1190B37A100937E39 /* InfoPlist.strings */; };
-		B80EBDB5190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */; };
 		B833B36519338ABA00068F36 /* Tamadra.png in Resources */ = {isa = PBXBuildFile; fileRef = B833B36419338ABA00068F36 /* Tamadra.png */; };
 		B833B36719338C7100068F36 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B833B36619338C7100068F36 /* background.png */; };
 /* End PBXBuildFile section */
@@ -85,9 +83,6 @@
 		B80EBDA1190B37A100937E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B80EBDA7190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAD Calculator - Calculations for Puzzle and DragonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80EBDA8190B37A100937E39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist"; sourceTree = "<group>"; };
-		B80EBDB2190B37A100937E39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m"; sourceTree = "<group>"; };
 		B833B36419338ABA00068F36 /* Tamadra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tamadra.png; sourceTree = "<group>"; };
 		B833B36619338C7100068F36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		B83AD5481930F3B200C6F8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -128,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				B80EBD8C190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons */,
-				B80EBDAE190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */,
 				B80EBD85190B37A100937E39 /* Frameworks */,
 				B80EBD84190B37A100937E39 /* Products */,
 			);
@@ -194,24 +188,6 @@
 				B80EBD8F190B37A100937E39 /* InfoPlist.strings */,
 				B80EBD92190B37A100937E39 /* main.m */,
 				B80EBD94190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and Dragons-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B80EBDAE190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests */ = {
-			isa = PBXGroup;
-			children = (
-				B80EBDB4190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m */,
-				B80EBDAF190B37A100937E39 /* Supporting Files */,
-			);
-			path = "PAD Calculator - Calculations for Puzzle and DragonsTests";
-			sourceTree = "<group>";
-		};
-		B80EBDAF190B37A100937E39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B80EBDB0190B37A100937E39 /* PAD Calculator - Calculations for Puzzle and DragonsTests-Info.plist */,
-				B80EBDB1190B37A100937E39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -323,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80EBDB3190B37A100937E39 /* InfoPlist.strings in Resources */,
 				B80D0C3E19489E4C004931BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80EBDB5190B37A100937E39 /* PAD_Calculator___Calculations_for_Puzzle_and_DragonsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +349,6 @@
 				B83AD5481930F3B200C6F8C1 /* en */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B80EBDB1190B37A100937E39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B80EBDB2190B37A100937E39 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -22,9 +22,9 @@
 }
 
 @property (strong, nonatomic) IBOutlet UIPickerView *dungeonPicker;
-@property (strong, nonatomic)          NSArray *dungeonArray;
-@property (strong, nonatomic)          NSArray *dungeonTurn;
-@property (strong, nonatomic)          NSArray *dungeonScore;
+@property (strong, nonatomic)          NSMutableArray *dungeonArray;
+@property (strong, nonatomic)          NSMutableArray *dungeonTurn;
+@property (strong, nonatomic)          NSMutableArray *dungeonScore;
 
 @property (strong, nonatomic) IBOutlet UIImageView *sRankImage;
 @property (strong, nonatomic) IBOutlet UILabel *turnCount;
@@ -34,6 +34,8 @@
 @property (strong, nonatomic) IBOutlet UISlider *teamCostSlider;
 @property (strong, nonatomic) IBOutlet UISlider *averageComboSlider;
 @property (strong, nonatomic) IBOutlet UILabel *score;
+
+@property (strong, nonatomic) NSMutableData *responseData;
 
 
 @end
